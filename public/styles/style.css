@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.nav{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav>ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav>ul>li{
+    list-style-type: none;
+}
+.nav>ul>li>a,
+.nav>ul>li>a:link{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.fruits{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.fruit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    border:2px solid green;
+    margin:20px;
+}
+.nom,
+.variete,
+.saison{
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+.url{
+    display: flex;
+    align-items: center;
+    height: 40%;
+}
+.variete{
+    font-weight: 600;
+}
+.saison{
+    font-style: italic;
+}
